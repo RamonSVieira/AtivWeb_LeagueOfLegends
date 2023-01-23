@@ -36,8 +36,10 @@ header nav ul li {
 
 header nav ul li a {
   padding: 8px 16px;
+
   background-color: #53a2be;
   border-radius: 1rem;
+
   transition: background-color 0.3s;
 }
 
@@ -56,31 +58,31 @@ header nav ul li a {
 
 .principal {
   height: calc(100vh - 99px);
+
   background-image: url(./imgs/main-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
   background-attachment: fixed;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .principal h1 {
   background-color: #0a2239;
   color: white;
+
   border-radius: 4px;
   padding: 12px;
 }
 
 .principal div {
+  margin: auto;
+  height: calc(100vh - 99px);
+  width: 810px;
+
   background-image: url(./imgs/logo.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 300px;
-  width: 810px;
 }
 
 section {
@@ -102,6 +104,7 @@ section * {
 section p {
   max-width: 1200px;
   margin-top: 24px;
+
   text-align: justify;
 }
 
@@ -111,15 +114,12 @@ section p {
 
 .bg {
   height: 500px;
+  
   background-image: url(./imgs/darius.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top right;
   background-attachment: fixed;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .bg.bg2 {
