@@ -1,0 +1,147 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+ul,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0a2239;
+  padding-block: 40px;
+}
+
+header nav ul {
+  max-width: fit-content;
+  margin: auto;
+
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline-block;
+
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+header nav ul li a {
+  padding: 8px 16px;
+  background-color: #53a2be;
+  border-radius: 1rem;
+  transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+  background-color: #1d84b5;
+}
+
+header nav ul li:not(li:first-child) {
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.principal {
+  height: calc(100vh - 99px);
+  background-image: url(./imgs/main-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.principal h1 {
+  background-color: #0a2239;
+  color: white;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.principal div {
+  background-image: url(./imgs/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 300px;
+  width: 810px;
+}
+
+section {
+  text-align: center;
+}
+
+section:nth-child(odd) {
+  background-color: #176087;
+}
+
+section:nth-child(even) {
+  background-color: #4683a3;
+}
+
+section * {
+  margin: 0 auto;
+}
+
+section p {
+  max-width: 1200px;
+  margin-top: 24px;
+  text-align: justify;
+}
+
+.content-section {
+  padding-block: 30px;
+}
+
+.bg {
+  height: 500px;
+  background-image: url(./imgs/darius.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+  background-attachment: fixed;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg.bg2 {
+  background-image: url(./imgs/olaf.jpg);
+}
+
+.bg.bg3 {
+  background-image: url(./imgs/ahri.jpeg);
+}
+
+.bg.bg4 {
+  background-image: url(./imgs/kaisa.jpg);
+}
+
+.bg.bg5 {
+  background-image: url(./imgs/morgana.jpeg);
+  background-position: center center;
+}
+
+.info1 {
+  padding: 20px;
+  margin: 0 auto;
+
+  text-align: center;
+}
